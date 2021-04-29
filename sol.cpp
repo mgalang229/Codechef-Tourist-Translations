@@ -8,7 +8,7 @@ int main() {
 	int length_of_conversation;
 	string m;
 	cin >> length_of_conversation >> m;
-	// store the the value of 'm' in 'alphabet'
+	// store the value of 'm' in 'alphabet'
 	string alphabet = m;
 	// afterwards, sort 'alphabet' in increasing order (lexicographical order)
 	sort(alphabet.begin(), alphabet.end());
