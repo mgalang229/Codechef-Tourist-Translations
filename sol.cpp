@@ -38,7 +38,7 @@ int main() {
 			} else {
 				// otherwise, check first if the current character is a lowercase and if it's
 				// true, then concatenate the character from the 'm' with the 'index' variable
-				// as its index. However, if the it's a capital letter, then convert it first
+				// as its index. However, if it's a capital letter, then convert it first
 				// to capital form before concatenating it
 				ans += (sentence[j] >= 'a' && sentence[j] <= 'z' ? m[index] : toupper(m[index]));
 			}
